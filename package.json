@@ -1,0 +1,24 @@
+{
+  "name": "seek-dependencies",
+  "version": "1.0.0",
+  "description": "external server modules",
+  "main": "app.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeekSoftwareInc/seek-dependencies.git"
+  },
+  "author": "bdulan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeekSoftwareInc/seek-dependencies/issues"
+  },
+  "homepage": "https://github.com/SeekSoftwareInc/seek-dependencies#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "nodemailer": "^1.4.0"
+  }
+}
