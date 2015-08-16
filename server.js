@@ -19,7 +19,7 @@ var mailOptions = {
 };
 
 app.get('/', function (req, res) { // Once something reaches this page do something
-  //res.send('Hello World!');
+  res.send('Hello World!');
   transporter.sendMail(mailOptions, function(error, info){
       if(error){
           return console.log(error);
